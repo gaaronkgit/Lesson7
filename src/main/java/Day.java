@@ -5,7 +5,6 @@ public class Day
 {
     public Day()
     {
-
     }
 
     public int getIcon() {
