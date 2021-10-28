@@ -3,6 +3,14 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Day
 {
+
+    @JsonProperty("Icon")
+    public int icon;
+    @JsonProperty("IconPhrase")
+    public String iconPhrase;
+    @JsonProperty("HasPrecipitation")
+    public boolean hasPrecipitation;
+
     public Day()
     {
     }
@@ -31,10 +39,5 @@ public class Day
         this.hasPrecipitation = hasPrecipitation;
     }
 
-    @JsonProperty("Icon")
-    public int icon;
-    @JsonProperty("IconPhrase")
-    public String iconPhrase;
-    @JsonProperty("HasPrecipitation")
-    public boolean hasPrecipitation;
+
 }
