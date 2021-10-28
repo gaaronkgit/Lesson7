@@ -5,6 +5,7 @@ import java.util.List;
 
 public class DailyForecast
 {
+
     @JsonProperty("Date")
     public Date date;
     @JsonProperty("EpochDate")

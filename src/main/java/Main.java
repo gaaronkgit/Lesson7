@@ -15,7 +15,10 @@ public class Main
 
         for(int i = 0; i < root.dailyForecasts.size(); i++)
         {
-
+            System.out.println("City: Moscow " +  root.dailyForecasts.get(i).date
+                    + "WetherText:" + root.dailyForecasts.get(i).day.iconPhrase
+                    + " min temp:" + root.dailyForecasts.get(i).temperature.minimum.value
+                    + " min temp:" + root.dailyForecasts.get(i).temperature.maximum.value);
         }
 
 
