@@ -53,7 +53,7 @@ public  class RequestHandler
                 .addPathSegment("5day")
                 .addPathSegment(cityKey)
                 .addQueryParameter("apikey",Params.API_KEY)
-                .addQueryParameter("metriv",Params.API_KEY)
+                .addQueryParameter("metric","true")
                 .build();
 
         Request request = new Request.Builder().addHeader("Accept","application/json").url(urlWeather).build();
