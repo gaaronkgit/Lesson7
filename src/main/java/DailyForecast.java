@@ -6,7 +6,7 @@ import java.util.List;
 public class DailyForecast
 {
     @JsonProperty("Date")
-    public Date date;
+    public String date;
     @JsonProperty("EpochDate")
     public int epochDate;
     @JsonProperty("Temperature")
@@ -21,11 +21,11 @@ public class DailyForecast
 
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 

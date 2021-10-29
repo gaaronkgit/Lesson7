@@ -37,4 +37,8 @@ public class Day
     public String iconPhrase;
     @JsonProperty("HasPrecipitation")
     public boolean hasPrecipitation;
+    @JsonProperty("PrecipitationType")
+    public String precipitationType;
+    @JsonProperty("PrecipitationIntensity")
+    public String precipitationIntensity;
 }
